@@ -17,7 +17,7 @@ public class ArmstrongNumberCheck {
             System.out.println("Не е Армстронг");
         }
 
-        // Затваряне на скенера
+        // Затваряне на скенераa
         scanner.close();
     }
 
