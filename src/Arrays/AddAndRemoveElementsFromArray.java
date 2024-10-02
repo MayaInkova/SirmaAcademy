@@ -28,7 +28,7 @@ public class AddAndRemoveElementsFromArray {
 
             currentNumber++;
         }
-
+         //проверка
         if (numbers.isEmpty()) {
             System.out.println("Empty");
         } else {
