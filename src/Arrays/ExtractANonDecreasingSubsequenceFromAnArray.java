@@ -8,7 +8,7 @@ public class ExtractANonDecreasingSubsequenceFromAnArray {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Прочитане на входния масив от числа
+        // Прочита на входния масив от числа
         String[] input = scanner.nextLine().split(" ");
         List<Integer> result = new ArrayList<>();
 
