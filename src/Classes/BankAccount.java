@@ -41,7 +41,7 @@ public class BankAccount {
         return this.id;
     }
 
-    // Гетър за баланс (по избор, не е изисквано)
+    // Гетър за баланс
     public double getBalance() {
         return this.balance;
     }
