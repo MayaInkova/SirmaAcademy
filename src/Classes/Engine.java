@@ -1,9 +1,9 @@
 package Classes;
 
 public class Engine {
-    // Полета на двигателя
-    private int power;  // Мощността на двигателя
-    private double fuel;  // Количество гориво
+
+    private int power;
+    private double fuel;
 
     // Конструктор за създаване на двигател с мощност и гориво
     public Engine(int power, double fuel) {
