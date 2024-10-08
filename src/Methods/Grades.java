@@ -21,7 +21,7 @@ public class Grades {
     }
 
     public static void main(String[] args) {
-        // Създаваме скенер за въвеждане на оценка от потребителя
+
         Scanner scanner = new Scanner(System.in);
 
         // Подканяме потребителя да въведе оценка

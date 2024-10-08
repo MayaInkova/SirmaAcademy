@@ -25,14 +25,14 @@ public class PrintingTriangle {
     }
 
     public static void main(String[] args) {
-        // Създаваме скенер за въвеждане на размера на триъгълника
+
         Scanner scanner = new Scanner(System.in);
 
         // Подканяме потребителя да въведе размер на триъгълника
         System.out.println("Моля, въведете размер на триъгълника:");
         int size = scanner.nextInt();
 
-        // Извикваме метода за отпечатване на триъгълник с даден размер
+        // Извикваме метода за отпечатване на триъгълник
         printTriangle(size);
     }
 
