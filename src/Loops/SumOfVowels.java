@@ -35,7 +35,6 @@ public class SumOfVowels {
             }
         }
 
-        // Print the sum of vowel values
         System.out.println("The sum of the vowel values is: " + sum);
     }
 
@@ -46,7 +45,7 @@ public class SumOfVowels {
         System.out.print("Enter some text: ");
         String text = scanner.nextLine();
 
-        // Call the function to calculate and print the sum of vowel values
+        // Извикване на функцията
         calculateVowelSum(text);
 
 

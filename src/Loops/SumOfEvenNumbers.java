@@ -22,7 +22,7 @@ public class SumOfEvenNumbers {
         System.out.print("Enter the value of n: ");
         int n = scanner.nextInt();
 
-        // Call the function to calculate and display the sum
+        // Call the function
         calculateSumOfEvenNumbers(n);
 
     }

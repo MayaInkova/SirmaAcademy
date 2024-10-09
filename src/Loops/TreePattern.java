@@ -31,7 +31,6 @@ public class TreePattern {
             for (int j = 0; j < (2 * i + 1); j++) {
                 System.out.print("*");
             }
-            // Превод на ред
             System.out.println();
         }
 
