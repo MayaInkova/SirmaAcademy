@@ -22,7 +22,7 @@ public class DecimalToBinaryConverter {
         // Преобразуване на десетично в двоично
         while (decimal != 0) {
             stack.push(decimal % 2);  // Съхраняваме остатъка от деление на 2
-            decimal /= 2;  // Делим числото на 2
+            decimal /= 2;
         }
 
         // Извличане на двоичното представяне
