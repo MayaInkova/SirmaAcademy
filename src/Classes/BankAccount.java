@@ -5,7 +5,6 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class BankAccount {
-    // Частни полета
     private static int idCounter = 1; // За да се увеличава ID-то автоматично
     private int id;
     private double balance;
