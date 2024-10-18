@@ -13,7 +13,7 @@ public class CountRealNumbers {
         String[] numbers = input.split(" ");
         LinkedHashMap<String, Integer> numberCount = new LinkedHashMap<>();
 
-        // Обработване и броене на числата
+        // Обработване и броене на числa
         for (String num : numbers) {
             // Форматиране на числото до един знак след десетичната запетая
             double realNum = Double.parseDouble(num);
