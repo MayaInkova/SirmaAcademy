@@ -29,7 +29,7 @@ public class OddOccurrences {
             }
         }
 
-        // Извеждаме резултата
+        // Извеждаме резултатаa
         System.out.println(String.join(" ", oddOccurrences));
 
     }
