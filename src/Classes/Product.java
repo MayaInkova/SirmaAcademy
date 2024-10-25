@@ -23,7 +23,8 @@ class Product {
 
     // Метод за връщане на информацията за продукта във формат JSON-подобен стринг
     public String toJSON() {
-        return STR."{\"name\": \"\{this.name}\", \"price\": \{this.price}, \"quantity\": \{this.quantity}, \"totalCost\": \{this.getTotalCost()}}";
+        return String.format("{\"name\": \"%s\", \"price\": %.2f, \"quantity\": %d, \"totalCost\": %.2f}",
+                this.name, this.price, this.quantity, this.getTotalCost());
     }
 
     // Гетъри за име и количество
