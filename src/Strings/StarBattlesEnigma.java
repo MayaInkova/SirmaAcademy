@@ -73,7 +73,7 @@ public class StarBattlesEnigma {
             char attackType = matcher.group(3).charAt(0);
             int soldiers = Integer.parseInt(matcher.group(4));
 
-            // Определяне на вида атака
+            // Определяне на вида  на  атаката
             if (attackType == 'A') {
                 attacked.add(planet);
             } else if (attackType == 'D') {
