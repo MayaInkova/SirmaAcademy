@@ -58,7 +58,7 @@ public class StarBattlesEnigma {
 
     // Извличане на информация от декриптираното съобщение
     private static void extractInformation(String message, List<String> attacked, List<String> destroyed) {
-        // Регулярни изрази за намиране на съответните части от съобщението
+        // Регулярни изрази за намиране на съответните части от съобщение
         String planetPattern = "@([A-Za-z]+)";
         String populationPattern = ":(\\d+)";
         String attackTypePattern = "!([AD])!";
