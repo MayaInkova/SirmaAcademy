@@ -13,11 +13,11 @@ public class CalculateRectangleArea {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Подканяме потребителя да въведе ширина
+        //  потребителя да въведе ширина
         System.out.println("Моля, въведете ширината на правоъгълника:");
         double width = scanner.nextDouble();
 
-        // Подканяме потребителя да въведе дължина
+        //  потребителя да въведе дължина
         System.out.println("Моля, въведете дължината на правоъгълника:");
         double length = scanner.nextDouble();
 
