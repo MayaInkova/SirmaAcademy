@@ -21,7 +21,7 @@ public class CalculateRectangleArea {
         System.out.println("Моля, въведете дължината на правоъгълника:");
         double length = scanner.nextDouble();
 
-        // Извикваме метода за изчисляване на площта
+        // Извикваме метода за изчисляване
         double area = calculateRectangleArea(width, length);
 
         // Отпечатваме площта на правоъгълника
