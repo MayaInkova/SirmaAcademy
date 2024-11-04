@@ -49,7 +49,7 @@ public class OrderOfThePhoenixVotes {
         } else if (yesCount == 0 && noCount == 0) {
             return "Abstain"; // Всички гласове са "Въздържал се"
         } else {
-            return "Tie"; // Равенство между "Да" и "Не"
+            return "Tie"; // Равенство
         }
     }
 }
