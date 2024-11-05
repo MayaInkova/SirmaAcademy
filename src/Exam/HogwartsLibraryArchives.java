@@ -13,7 +13,7 @@ public class HogwartsLibraryArchives {
         String inputRecords = scanner.nextLine();
 
         // Разделяне на записа в масив
-        String[] records = inputRecords.split(",\\s*"); // Разделяне по запетаи
+        String[] records = inputRecords.split(",\\s*");
 
 
         System.out.println("Въвеждане на  търсения запис: ");
