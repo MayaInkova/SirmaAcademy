@@ -16,7 +16,7 @@ public class HogwartsLibraryArchives {
         String[] records = inputRecords.split(",\\s*");
 
 
-        System.out.println("Въвеждане на  търсения запис: ");
+        System.out.println("Въвеждане на  търсения запис ");
         String searchTerm = scanner.nextLine();
 
         // Намиране на първата и последната поява
@@ -35,7 +35,7 @@ public class HogwartsLibraryArchives {
                 if (firstIndex == -1) { // Първа поява
                     firstIndex = i;
                 }
-                lastIndex = i; // Последна поява
+                lastIndex = i; // Последна
             }
         }
 
