@@ -47,7 +47,7 @@ public class HandsOfCards {
         }
     }
 
-    // Метод за изчисляване на стойността на ръката на играча
+    // Метод за изчисляване на ръката на играча
     private static int calculateHandValue(Set<String> cards) {
         int totalValue = 0;
 
@@ -80,7 +80,7 @@ public class HandsOfCards {
         }
     }
 
-    // Метод за връщане на множителя за типа на картата
+    // връщане на множителя за типа на картата
     private static int getTypeMultiplier(char type) {
         switch (type) {
             case 'S':
