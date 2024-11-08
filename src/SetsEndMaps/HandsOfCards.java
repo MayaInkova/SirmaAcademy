@@ -8,6 +8,7 @@ import java.util.Set;
 
 public class HandsOfCards {
     public static void main(String[] args) {
+        
 
         // Мапваме хората и техните уникални карти
         HashMap<String, Set<String>> playerCards = new HashMap<>();

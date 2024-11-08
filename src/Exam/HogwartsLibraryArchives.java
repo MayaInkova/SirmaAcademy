@@ -26,8 +26,8 @@ public class HogwartsLibraryArchives {
     }
 
     public static void findFirstAndLastOccurrence(String[] records, String searchTerm) {
-        int firstIndex = -1; // Инициализация на индекса на първата поява
-        int lastIndex = -1;  // Инициализация на индекса на последната поява
+        int firstIndex = -1; // първа поява
+        int lastIndex = -1;  // последна поява
 
         // Итерация през масива, за да намерим индексите
         for (int i = 0; i < records.length; i++) {
