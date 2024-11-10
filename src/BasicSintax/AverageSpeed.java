@@ -6,7 +6,7 @@ public class AverageSpeed {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Въвеждане на разстоянието D в километри
+
         System.out.print("Въведете разстоянието D (в километри): ");
         double distance = scanner.nextDouble();
 
@@ -17,7 +17,7 @@ public class AverageSpeed {
         // Изчисляване на средната скорост със формулата: Средна скорост = D / T
         double averageSpeed = distance / time;
 
-        // Отпечатване на резултата
+
         System.out.printf("Средната скорост на превозното средство е: %.2f км/ч%n", averageSpeed);
         
     }
