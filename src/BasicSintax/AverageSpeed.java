@@ -10,7 +10,7 @@ public class AverageSpeed {
         System.out.print("Въведете разстоянието D (в километри): ");
         double distance = scanner.nextDouble();
 
-        // Въвеждане на времето T в часове
+
         System.out.print("Въведете времето T (в часове): ");
         double time = scanner.nextDouble();
 
