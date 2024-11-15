@@ -25,7 +25,7 @@ public class CountLinesWordsAndCharacters {
 
             // Четем файла ред по ред
             while ((line = reader.readLine()) != null) {
-                // Увеличаваме брояча на редовете
+
                 lineCount++;
 
                 // Броим думите в текущия ред (разделяме по интервали)
@@ -36,7 +36,7 @@ public class CountLinesWordsAndCharacters {
                 charCount += line.length();
             }
 
-            // Печатаме резултатите на конзолата
+
             System.out.println("Number of lines: " + lineCount);
             System.out.println("Number of words: " + wordCount);
             System.out.println("Number of characters: " + charCount);
