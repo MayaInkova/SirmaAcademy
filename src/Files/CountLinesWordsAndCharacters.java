@@ -14,7 +14,7 @@ public class CountLinesWordsAndCharacters {
         countFileStatistics(inputFile);
     }
 
-    // Метод за преброяване на редове, думи и символи във файл
+    //  преброяване на редове, думи и символи във файл
     public static void countFileStatistics(String inputFile) {
         int lineCount = 0;
         int wordCount = 0;
@@ -23,7 +23,7 @@ public class CountLinesWordsAndCharacters {
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFile))) {
             String line;
 
-            // Четем файла ред по ред
+
             while ((line = reader.readLine()) != null) {
 
                 lineCount++;
