@@ -41,7 +41,7 @@ public class CountLinesWordsAndCharacters {
             System.out.println("Number of words: " + wordCount);
             System.out.println("Number of characters: " + charCount);
         } catch (IOException e) {
-            System.out.println("Възникна грешка при четене на файла: " + e.getMessage());
+            System.out.println("Грешка при четене на файла: " + e.getMessage());
         }
     }
 }
