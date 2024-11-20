@@ -30,7 +30,7 @@ public class ExtractSpecificFilesFromZipArchive {
         try (ZipInputStream zipInputStream = new ZipInputStream(new FileInputStream(zipFileName))) {
             ZipEntry entry;
 
-            // Обработваме всяка входяща ентри (запис) в архива
+            // Обработваме всеки входящ запис в архива
             while ((entry = zipInputStream.getNextEntry()) != null) {
                 // Проверяваме дали файлът има разширение .txt
                 if (entry.getName().endsWith(".txt")) {
