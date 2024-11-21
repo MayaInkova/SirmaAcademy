@@ -23,8 +23,8 @@ public class CopyFileContent {
             System.out.println("File has been copied successfully!");
 
         } catch (IOException e) {
-            // Ако има грешка при четене или писане, показваме съобщение за грешка
-            System.err.println("Error while copying the file: " + e.getMessage());
+            // съобщение за грешка
+            System.err.println("Error: " + e.getMessage());
         }
     }
 }

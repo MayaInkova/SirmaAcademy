@@ -22,6 +22,7 @@ public class CharacterFrequency {
                 // Проверяваме дали символът вече съществува в Map
                 frequencyMap.put(ch, frequencyMap.getOrDefault(ch, 0) + 1);
             }
+            //Хвърляме изключение, ако не съществува
         } catch (IOException e) {
             System.err.println("Грешка при четене на файла: " + e.getMessage());
         }

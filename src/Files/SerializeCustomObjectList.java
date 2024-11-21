@@ -25,7 +25,7 @@ public class SerializeCustomObjectList {
         System.out.println("Заредена карта: " + loadedMap);
     }
 
-    // Метод за записване на карта във файл
+    // записване на карта във файл
     private static void saveMapToFile(Map<String, Integer> map, String fileName) {
         // Използваме try-with-resources за автоматично затваряне на потоците
         try (ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(fileName))) {
@@ -38,7 +38,7 @@ public class SerializeCustomObjectList {
         }
     }
 
-    // Метод за зареждане на карта от файл
+    // зареждане на карта от файл
     @SuppressWarnings("unchecked")  // Потиска предупреждението за неясен тип
     private static Map<String, Integer> loadMapFromFile(String fileName) {
         // Използваме try-with-resources за автоматично затваряне на потоците

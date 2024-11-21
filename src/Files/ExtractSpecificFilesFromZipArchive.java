@@ -54,7 +54,7 @@ public class ExtractSpecificFilesFromZipArchive {
                     System.out.println("Файлът е извлечен: " + extractedFile.getAbsolutePath());
                 }
 
-                // Затваряме текущия запис в архива
+
                 zipInputStream.closeEntry();
             }
 
