@@ -11,7 +11,7 @@ public class CharacterFrequency {
         // Създаваме Map, за да съхраняваме честотата на всеки символ
         Map<Character, Integer> frequencyMap = new HashMap<>();
 
-        // Използваме try-with-resources, за да затворим автоматично BufferedReader
+        // Използваме try-with-resources, за да затворим BufferedReader
         try (BufferedReader reader = new BufferedReader(new FileReader("input.txt"))) {
             int character;
 
