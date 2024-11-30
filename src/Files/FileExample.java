@@ -14,7 +14,6 @@ public class FileExample {
         String inputFileName = "numbers.txt";
         String outputFileName = "result.txt";
 
-        // Създаваме на  числата на входния файл
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(inputFileName))) {
             writer.write("10");
             writer.newLine();
@@ -28,7 +27,6 @@ public class FileExample {
             return;
         }
 
-        // Четене на числата от входния файл
         List<Integer> numbers = new ArrayList<>();
         try (BufferedReader reader = new BufferedReader(new FileReader(inputFileName))) {
             String line;
