@@ -12,10 +12,10 @@ public class ExtractFile {
         System.out.print("Въведете пътя до файла: ");
         String filePath = scanner.nextLine();
 
-        // Създаване на File обект от въведения път
+
         File file = new File(filePath);
 
-        // Проверка дали файлът съществува
+
         if (file.exists() && file.isFile()) {
             // Извличане на пътя до директорията, без името на файла и разширението
             String parentPath = file.getParent(); // Взема директорията
