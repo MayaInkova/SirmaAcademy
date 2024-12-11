@@ -6,7 +6,7 @@ public class LongestSequenceOfIdenticalElements {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Прочитане на входния масив от числа
+
         String[] input = scanner.nextLine().split(" ");
         int[] numbers = new int[input.length];
 
