@@ -23,7 +23,7 @@ public class BalancedParentheses {
         return stack.isEmpty();
     }
 
-    // Функция за проверка дали скобите съвпадат
+    // Проверяваме  дали скобите съвпадат
     private static boolean isMatchingPair(char open, char close) {
         return (open == '(' && close == ')') ||
                 (open == '[' && close == ']') ||
