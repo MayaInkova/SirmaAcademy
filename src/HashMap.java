@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 
+//Преброява колко пъти се среща една дума в текста
+
 public class HashMap {
     public static void main(String[] args) {
         String text = " Hello, world!";
