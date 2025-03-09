@@ -11,8 +11,8 @@ public class evenNumbers {
         System.out.println(evenNumbers);
     }
     public  static  List<Integer> filterEven(List<Integer> numbers) {
-        return numbers.stream()
-                .filter(n -> n % 2==0)
-                .collect(Collectors.toList());
+        return numbers.stream() //създава поток от списък
+                .filter(n -> n % 2==0)  //оставяме само четните числа
+                .collect(Collectors.toList()); //събира резултата обратно в списъка
     }
 }
